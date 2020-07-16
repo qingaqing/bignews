@@ -31,7 +31,7 @@ $(function () {
     // 3.2 被单击的div要添加类acitve 其余的删除类active
     $(this).addClass('active').siblings('div').removeClass('active')
     // 3.3 当单击文章管理标签的时候，要让ul展开或合并
-    if ($(this).index() == 1) {
+    if ($(this).index() == 1) { 
       // 3.4 让ul有一个展开闭合的切换
       $('.menu .level02').slideToggle()
       // 3.5 让右侧的小按钮有一个旋转
